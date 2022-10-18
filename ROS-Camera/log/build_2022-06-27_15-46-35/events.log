@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000676] (oakd) JobQueued: {'identifier': 'oakd', 'dependencies': OrderedDict()}
+[0.002012] (oakd) JobStarted: {'identifier': 'oakd'}
+[0.099363] (-) TimerEvent: {}
+[0.199995] (-) TimerEvent: {}
+[0.300498] (-) TimerEvent: {}
+[0.401733] (-) TimerEvent: {}
+[0.502910] (-) TimerEvent: {}
+[0.603411] (-) TimerEvent: {}
+[0.703804] (-) TimerEvent: {}
+[0.804172] (-) TimerEvent: {}
+[0.904518] (-) TimerEvent: {}
+[1.004895] (-) TimerEvent: {}
+[1.105251] (-) TimerEvent: {}
+[1.205608] (-) TimerEvent: {}
+[1.306009] (-) TimerEvent: {}
+[1.406673] (-) TimerEvent: {}
+[1.507051] (-) TimerEvent: {}
+[1.607397] (-) TimerEvent: {}
+[1.707751] (-) TimerEvent: {}
+[1.808763] (-) TimerEvent: {}
+[1.909110] (-) TimerEvent: {}
+[2.009475] (-) TimerEvent: {}
+[2.109848] (-) TimerEvent: {}
+[2.210192] (-) TimerEvent: {}
+[2.310502] (-) TimerEvent: {}
+[2.410837] (-) TimerEvent: {}
+[2.511169] (-) TimerEvent: {}
+[2.611527] (-) TimerEvent: {}
+[2.711852] (-) TimerEvent: {}
+[2.812281] (-) TimerEvent: {}
+[2.912682] (-) TimerEvent: {}
+[3.013125] (-) TimerEvent: {}
+[3.113543] (-) TimerEvent: {}
+[3.178584] (oakd) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/oakd', 'build', '--build-base', '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build', 'install', '--prefix', '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd', '--record', '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/install.log', '--single-version-externally-managed'], 'cwd': '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/src/oakd', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mcpslab', 'SSH_AGENT_PID': '1530', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/mcpslab', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/mcpslab/Desktop/ROS-Tutorials', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1355', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5701960b913c4abb7ef5430362b61bc3', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'mcpslab', 'JOURNAL_STREAM': '8:43868', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mcpslab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/mcpslab/anaconda3/condabin:/opt/ros/galactic/bin:/home/mcpslab/.local/bin:/home/mcpslab/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/mcpslab-Latitude-3470:@/tmp/.ICE-unix/1568,unix/mcpslab-Latitude-3470:/tmp/.ICE-unix/1568', 'INVOCATION_ID': 'e0714479c5564bfaa43165565c820b17', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/67308a9f_870e_48d5_ac90_be0d8aea9900', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.506', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'CONDA_PYTHON_EXE': '/home/mcpslab/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/mcpslab/anaconda3/bin/conda', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5701960b913c4abb7ef5430362b61bc3', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.213829] (-) TimerEvent: {}
+[3.314969] (-) TimerEvent: {}
+[3.415688] (-) TimerEvent: {}
+[3.516464] (-) TimerEvent: {}
+[3.617851] (-) TimerEvent: {}
+[3.719507] (-) TimerEvent: {}
+[3.721521] (oakd) StdoutLine: {'line': b'running egg_info\n'}
+[3.724779] (oakd) StdoutLine: {'line': b'writing ../../build/oakd/oakd.egg-info/PKG-INFO\n'}
+[3.725788] (oakd) StdoutLine: {'line': b'writing dependency_links to ../../build/oakd/oakd.egg-info/dependency_links.txt\n'}
+[3.726488] (oakd) StdoutLine: {'line': b'writing entry points to ../../build/oakd/oakd.egg-info/entry_points.txt\n'}
+[3.726960] (oakd) StdoutLine: {'line': b'writing requirements to ../../build/oakd/oakd.egg-info/requires.txt\n'}
+[3.727337] (oakd) StdoutLine: {'line': b'writing top-level names to ../../build/oakd/oakd.egg-info/top_level.txt\n'}
+[3.819653] (-) TimerEvent: {}
+[3.920029] (-) TimerEvent: {}
+[3.922891] (oakd) StdoutLine: {'line': b"reading manifest file '../../build/oakd/oakd.egg-info/SOURCES.txt'\n"}
+[3.973738] (oakd) StdoutLine: {'line': b"writing manifest file '../../build/oakd/oakd.egg-info/SOURCES.txt'\n"}
+[3.974462] (oakd) StdoutLine: {'line': b'running build\n'}
+[3.974740] (oakd) StdoutLine: {'line': b'running build_py\n'}
+[3.975545] (oakd) StdoutLine: {'line': b'copying oakd/oakd_member_function.py -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib/oakd\n'}
+[3.977179] (oakd) StdoutLine: {'line': b'running install\n'}
+[3.981253] (oakd) StdoutLine: {'line': b'running install_lib\n'}
+[3.988352] (oakd) StdoutLine: {'line': b'copying /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib/oakd/oakd_member_function.py -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd\n'}
+[3.991359] (oakd) StdoutLine: {'line': b'byte-compiling /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd/oakd_member_function.py to oakd_member_function.cpython-38.pyc\n'}
+[4.003584] (oakd) StdoutLine: {'line': b'running install_data\n'}
+[4.005625] (oakd) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.010730] (oakd) StdoutLine: {'line': b"removing '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.011908] (oakd) StdoutLine: {'line': b'Copying ../../build/oakd/oakd.egg-info to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd-0.0.0-py3.8.egg-info\n'}
+[4.014622] (oakd) StdoutLine: {'line': b'running install_scripts\n'}
+[4.020134] (-) TimerEvent: {}
+[4.095414] (oakd) StdoutLine: {'line': b'Installing oakd_starter script to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/oakd\n'}
+[4.096670] (oakd) StdoutLine: {'line': b"writing list of installed files to '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/install.log'\n"}
+[4.120248] (-) TimerEvent: {}
+[4.179580] (oakd) CommandEnded: {'returncode': 0}
+[4.200188] (oakd) JobEnded: {'identifier': 'oakd', 'rc': 0}
+[4.203294] (-) EventReactorShutdown: {}

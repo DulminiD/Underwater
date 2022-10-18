@@ -1,0 +1,28 @@
+[1.446s] Invoking command in '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/src/oakd': PYTHONPATH=/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/oakd build --build-base /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build install --prefix /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd --record /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/install.log --single-version-externally-managed
+[1.938s] running egg_info
+[1.939s] writing ../../build/oakd/oakd.egg-info/PKG-INFO
+[1.960s] writing dependency_links to ../../build/oakd/oakd.egg-info/dependency_links.txt
+[1.960s] writing entry points to ../../build/oakd/oakd.egg-info/entry_points.txt
+[1.961s] writing requirements to ../../build/oakd/oakd.egg-info/requires.txt
+[1.961s] writing top-level names to ../../build/oakd/oakd.egg-info/top_level.txt
+[2.013s] reading manifest file '../../build/oakd/oakd.egg-info/SOURCES.txt'
+[2.080s] writing manifest file '../../build/oakd/oakd.egg-info/SOURCES.txt'
+[2.080s] running build
+[2.080s] running build_py
+[2.081s] copying oakd/oakd_main_function.py -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib/oakd
+[2.176s] running install
+[2.177s] running install_lib
+[2.179s] copying /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib/oakd/oakd_main_function.py -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd
+[2.181s] byte-compiling /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd/oakd_main_function.py to oakd_main_function.cpython-38.pyc
+[2.186s] running install_data
+[2.187s] running install_egg_info
+[2.190s] removing '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd-0.0.0-py3.8.egg-info' (and everything under it)
+[2.190s] Copying ../../build/oakd/oakd.egg-info to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd-0.0.0-py3.8.egg-info
+[2.192s] running install_scripts
+[2.219s] Installing oakd_imu_rotation script to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/oakd
+[2.219s] Installing oakd_imu_rotation_vector script to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/oakd
+[2.220s] Installing oakd_main script to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/oakd
+[2.220s] Installing oakd_rgb script to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/oakd
+[2.220s] Installing oakd_stereo script to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/oakd
+[2.221s] writing list of installed files to '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/install.log'
+[2.257s] Invoked command in '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/src/oakd' returned '0': PYTHONPATH=/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/oakd build --build-base /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build install --prefix /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd --record /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/install.log --single-version-externally-managed

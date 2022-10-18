@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/oakd/oakd.egg-info
+writing ../../build/oakd/oakd.egg-info/PKG-INFO
+writing dependency_links to ../../build/oakd/oakd.egg-info/dependency_links.txt
+writing entry points to ../../build/oakd/oakd.egg-info/entry_points.txt
+writing requirements to ../../build/oakd/oakd.egg-info/requires.txt
+writing top-level names to ../../build/oakd/oakd.egg-info/top_level.txt
+writing manifest file '../../build/oakd/oakd.egg-info/SOURCES.txt'
+reading manifest file '../../build/oakd/oakd.egg-info/SOURCES.txt'
+writing manifest file '../../build/oakd/oakd.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build
+creating /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib
+creating /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib/oakd
+copying oakd/oakd_member_function.py -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib/oakd
+copying oakd/__init__.py -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib/oakd
+running install
+running install_lib
+creating /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd
+copying /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib/oakd/oakd_member_function.py -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd
+copying /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/build/lib/oakd/__init__.py -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd
+byte-compiling /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd/oakd_member_function.py to oakd_member_function.cpython-38.pyc
+byte-compiling /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/share/ament_index
+creating /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/share/ament_index/resource_index
+creating /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/share/ament_index/resource_index/packages
+copying resource/oakd -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/share/ament_index/resource_index/packages
+copying package.xml -> /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/share/oakd
+running install_egg_info
+Copying ../../build/oakd/oakd.egg-info to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd-0.0.0-py3.8.egg-info
+running install_scripts
+Installing oakd_starter script to /home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/oakd
+writing list of installed files to '/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/build/oakd/install.log'

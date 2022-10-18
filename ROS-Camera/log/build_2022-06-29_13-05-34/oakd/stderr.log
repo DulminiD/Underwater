@@ -1,0 +1,5 @@
+  File "/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd/oakd_imu_function.py", line 61
+    count = 0
+    ^
+SyntaxError: invalid syntax
+
