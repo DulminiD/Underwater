@@ -23,16 +23,20 @@ II. Build the LED package "colcon build --packages-select LED_pkg".
 III. Run commands " . install/setup.bash" and ". install/local_setup.bash" to add the workspace to the path 
 
 There are 2 scripts. 
+
+'''
+
     i. led_blink_function - Sending ON and OFF sigals to the LED 
         
         Run using command
-        'ros2 run LED_pkg led_blink'
+        ros2 run LED_pkg led_blink
 
     ii. led_random_packet_function - Sending a random packet of signal to the LED 
 
         Run using command
-        'ros2 run LED_pkg led_packet'
+        ros2 run LED_pkg led_packet
 
+'''
 
 2. Camera package 
 
@@ -43,37 +47,40 @@ II. Build the LED package "colcon build --packages-select Camera_pkg".
 III. Run commands " . install/setup.bash" and ". install/local_setup.bash" to add the workspace to the path 
 
 There are 6 scripts. 
+
+'''
+
     i. oakd_rgb_function - Turns on the RGB camera  
         
         Run using command
-        'ros2 run Camera_pkg oakd_rgb'
+        ros2 run Camera_pkg oakd_rgb
 
     ii. oakd_imu_function - Collect information from IMU details from accelerator and gyrometer of the oakd camera 
 
         Run using command
-        'ros2 run Camera_pkg oakd_imu_rotation'
+        ros2 run Camera_pkg oakd_imu_rotation
 
     iii. oakd_imu_rotation_function - Collect information from IMU rotation functions of the oakd camera 
 
         Run using command
-        'ros2 run Camera_pkg oakd_imu_rotation_function'
+        ros2 run Camera_pkg oakd_imu_rotation_function
 
     iv. oakd_stereo_function - Turns on the stereo cameras
         
         Run using command
-        'ros2 run Camera_pkg oakd_stereo'
+        ros2 run Camera_pkg oakd_stereo
 
     v. oakd_main_function - Turns on the RGB camera saving a video and collects IMU details 
         
         Run using command
-        'ros2 run Camera_pkg oakd_main'
+        ros2 run Camera_pkg oakd_main
 
     vi. oakd_receiver_function - Idenities whether the light in ON or OFF
         
         Run using command
-        'ros2 run Camera_pkg oakd_receiver'
+        ros2 run Camera_pkg oakd_receiver
 
-
+'''
 
 
 
