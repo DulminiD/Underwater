@@ -1,7 +1,0 @@
-[console_scripts]
-oakd_imu_rotation = oakd.oakd_imu_rotation_function:main
-oakd_imu_rotation_vector = oakd.oakd_imu_rotation_vector:main
-oakd_main = oakd.oakd_main_function:main
-oakd_rgb = oakd.oakd_rgb_function:main
-oakd_stereo = oakd.oakd_stereo_function:main
-

@@ -1,0 +1,3 @@
+[console_scripts]
+led_node = LED_pkg.led_node:main
+

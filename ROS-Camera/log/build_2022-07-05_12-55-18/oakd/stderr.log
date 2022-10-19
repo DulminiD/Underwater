@@ -1,5 +1,0 @@
-  File "/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd/oakd_rgb_imu_function.py", line 18
-    from oakd_rgb_function
-                         ^
-SyntaxError: invalid syntax
-

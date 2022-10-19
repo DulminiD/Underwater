@@ -1,0 +1,21 @@
+[1.131s] Invoking command in '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/src/Camera_pkg': PYTHONPATH=/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Camera_pkg build --build-base /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build install --prefix /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg --record /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/install.log --single-version-externally-managed
+[1.529s] running egg_info
+[1.530s] writing ../../build/Camera_pkg/Camera_pkg.egg-info/PKG-INFO
+[1.531s] writing dependency_links to ../../build/Camera_pkg/Camera_pkg.egg-info/dependency_links.txt
+[1.531s] writing entry points to ../../build/Camera_pkg/Camera_pkg.egg-info/entry_points.txt
+[1.531s] writing requirements to ../../build/Camera_pkg/Camera_pkg.egg-info/requires.txt
+[1.532s] writing top-level names to ../../build/Camera_pkg/Camera_pkg.egg-info/top_level.txt
+[1.591s] reading manifest file '../../build/Camera_pkg/Camera_pkg.egg-info/SOURCES.txt'
+[1.593s] writing manifest file '../../build/Camera_pkg/Camera_pkg.egg-info/SOURCES.txt'
+[1.593s] running build
+[1.593s] running build_py
+[1.594s] running install
+[1.595s] running install_lib
+[1.597s] running install_data
+[1.598s] running install_egg_info
+[1.601s] removing '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.602s] Copying ../../build/Camera_pkg/Camera_pkg.egg-info to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg-0.0.0-py3.8.egg-info
+[1.604s] running install_scripts
+[1.628s] Installing camera_node script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/Camera_pkg
+[1.629s] writing list of installed files to '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/install.log'
+[1.662s] Invoked command in '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/src/Camera_pkg' returned '0': PYTHONPATH=/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Camera_pkg build --build-base /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build install --prefix /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg --record /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/install.log --single-version-externally-managed

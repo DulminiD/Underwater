@@ -1,5 +1,0 @@
-  File "/home/mcpslab/Desktop/ROS-Tutorials/Node-Test/install/oakd/lib/python3.8/site-packages/oakd/oakd_main_function.py", line 38
-    f1 = open("./output/RGB_log_"+str(ctime())".csv","w")
-                                              ^
-SyntaxError: invalid syntax
-
