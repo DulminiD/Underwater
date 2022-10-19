@@ -18,52 +18,60 @@ There are two packages in the optical-aspect workspace.
 
 This package is used to maintain the LED or the transmitter of the system
 
-i. Open a terminal in the "Optical-Aspect" folder.
-ii. Build the LED package "colcon build --packages-select LED_pkg". 
-iii. Run commands " . install/setup.bash" and ". install/local_setup.bash" to add the workspace to the path 
+I. Open a terminal in the "Optical-Aspect" folder.
+II. Build the LED package "colcon build --packages-select LED_pkg". 
+III. Run commands " . install/setup.bash" and ". install/local_setup.bash" to add the workspace to the path 
 
 There are 2 scripts. 
-    a. led_blink_function - Sending ON and OFF sigals to the LED 
+    i. led_blink_function - Sending ON and OFF sigals to the LED 
         
-        > Run using "ros2 run LED_pkg led_blink" command
+        Run using command
+        'ros2 run LED_pkg led_blink'
 
-    b. led_random_packet_function - Sending a random packet of signal to the LED 
+    ii. led_random_packet_function - Sending a random packet of signal to the LED 
 
-        > Run using "ros2 run LED_pkg led_packet" command
+        Run using command
+        'ros2 run LED_pkg led_packet'
 
 
 2. Camera package 
 
 This package is used to maintain the camera or the receiver of the system 
 
-i. Open a terminal in the "Optical-Aspect" folder.
-ii. Build the LED package "colcon build --packages-select Camera_pkg". 
-iii. Run commands " . install/setup.bash" and ". install/local_setup.bash" to add the workspace to the path 
+I. Open a terminal in the "Optical-Aspect" folder.
+II. Build the LED package "colcon build --packages-select Camera_pkg". 
+III. Run commands " . install/setup.bash" and ". install/local_setup.bash" to add the workspace to the path 
 
 There are 6 scripts. 
-    a. oakd_rgb_function - Turns on the RGB camera  
+    i. oakd_rgb_function - Turns on the RGB camera  
         
-        > Run using "ros2 run Camera_pkg oakd_rgb" command
+        Run using command
+        'ros2 run Camera_pkg oakd_rgb'
 
-    b. oakd_imu_function - Collect information from IMU details from accelerator and gyrometer of the oakd camera 
+    ii. oakd_imu_function - Collect information from IMU details from accelerator and gyrometer of the oakd camera 
 
-        > Run using "ros2 run Camera_pkg oakd_imu_rotation" command
+        Run using command
+        'ros2 run Camera_pkg oakd_imu_rotation'
 
-    c. oakd_imu_rotation_function - Collect information from IMU rotation functions of the oakd camera 
+    iii. oakd_imu_rotation_function - Collect information from IMU rotation functions of the oakd camera 
 
-        > Run using "ros2 run Camera_pkg oakd_imu_rotation_function" command
+        Run using command
+        'ros2 run Camera_pkg oakd_imu_rotation_function'
 
-    d. oakd_stereo_function - Turns on the stereo cameras
+    iv. oakd_stereo_function - Turns on the stereo cameras
         
-        > Run using "ros2 run Camera_pkg oakd_stereo" command
+        Run using command
+        'ros2 run Camera_pkg oakd_stereo'
 
-    e. oakd_main_function - Turns on the RGB camera saving a video and collects IMU details 
+    v. oakd_main_function - Turns on the RGB camera saving a video and collects IMU details 
         
-        > Run using "ros2 run Camera_pkg oakd_main" command
+        Run using command
+        'ros2 run Camera_pkg oakd_main'
 
-    e. oakd_receiver_function - Idenities whether the light in ON or OFF
+    vi. oakd_receiver_function - Idenities whether the light in ON or OFF
         
-        > Run using "ros2 run Camera_pkg oakd_receiver" command
+        Run using command
+        'ros2 run Camera_pkg oakd_receiver'
 
 
 
