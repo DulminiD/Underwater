@@ -9,7 +9,9 @@ setup.py
 ../../build/LED_pkg/LED_pkg.egg-info/top_level.txt
 ../../build/LED_pkg/LED_pkg.egg-info/zip-safe
 LED_pkg/__init__.py
+LED_pkg/led_blink_function.py
 LED_pkg/led_node.py
+LED_pkg/led_random_packet_function.py
 resource/LED_pkg
 test/test_copyright.py
 test/test_flake8.py

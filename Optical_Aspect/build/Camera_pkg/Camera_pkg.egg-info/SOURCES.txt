@@ -10,6 +10,12 @@ setup.py
 ../../build/Camera_pkg/Camera_pkg.egg-info/zip-safe
 Camera_pkg/__init__.py
 Camera_pkg/camera_node.py
+Camera_pkg/oakd_imu_function.py
+Camera_pkg/oakd_imu_rotation_vector.py
+Camera_pkg/oakd_main_function.py
+Camera_pkg/oakd_receiver_function.py
+Camera_pkg/oakd_rgb_function.py
+Camera_pkg/oakd_stereo_function.py
 resource/Camera_pkg
 test/test_copyright.py
 test/test_flake8.py

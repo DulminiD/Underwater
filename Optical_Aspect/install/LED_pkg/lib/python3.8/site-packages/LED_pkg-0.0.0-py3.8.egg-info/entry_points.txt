@@ -1,3 +1,5 @@
 [console_scripts]
+led_blink = LED_pkg.led_blink_function:main
 led_node = LED_pkg.led_node:main
+led_packet = LED_pkg.led_random_packet_function:main
 

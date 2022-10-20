@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/LED_pkg/LED_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/LED_pkg/LED_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/LED_pkg/LED_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/LED_pkg/LED_pkg.egg-info/requires.txt
+writing top-level names to ../../build/LED_pkg/LED_pkg.egg-info/top_level.txt
+reading manifest file '../../build/LED_pkg/LED_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/LED_pkg/LED_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying LED_pkg/led_random_packet_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/LED_pkg/build/lib/LED_pkg
+copying LED_pkg/led_blink_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/LED_pkg/build/lib/LED_pkg
+running install
+running install_lib
+copying /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/LED_pkg/build/lib/LED_pkg/led_random_packet_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/LED_pkg/lib/python3.8/site-packages/LED_pkg
+copying /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/LED_pkg/build/lib/LED_pkg/led_blink_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/LED_pkg/lib/python3.8/site-packages/LED_pkg
+byte-compiling /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/LED_pkg/lib/python3.8/site-packages/LED_pkg/led_random_packet_function.py to led_random_packet_function.cpython-38.pyc
+byte-compiling /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/LED_pkg/lib/python3.8/site-packages/LED_pkg/led_blink_function.py to led_blink_function.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/LED_pkg/lib/python3.8/site-packages/LED_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/LED_pkg/LED_pkg.egg-info to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/LED_pkg/lib/python3.8/site-packages/LED_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing led_blink script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/LED_pkg/lib/LED_pkg
+Installing led_node script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/LED_pkg/lib/LED_pkg
+Installing led_packet script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/LED_pkg/lib/LED_pkg
+writing list of installed files to '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/LED_pkg/install.log'

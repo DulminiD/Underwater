@@ -1,0 +1,45 @@
+[1.528s] Invoking command in '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/src/Camera_pkg': PYTHONPATH=/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Camera_pkg build --build-base /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build install --prefix /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg --record /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/install.log --single-version-externally-managed
+[1.925s] running egg_info
+[1.926s] writing ../../build/Camera_pkg/Camera_pkg.egg-info/PKG-INFO
+[2.030s] writing dependency_links to ../../build/Camera_pkg/Camera_pkg.egg-info/dependency_links.txt
+[2.036s] writing entry points to ../../build/Camera_pkg/Camera_pkg.egg-info/entry_points.txt
+[2.093s] writing requirements to ../../build/Camera_pkg/Camera_pkg.egg-info/requires.txt
+[2.093s] writing top-level names to ../../build/Camera_pkg/Camera_pkg.egg-info/top_level.txt
+[2.201s] reading manifest file '../../build/Camera_pkg/Camera_pkg.egg-info/SOURCES.txt'
+[2.203s] writing manifest file '../../build/Camera_pkg/Camera_pkg.egg-info/SOURCES.txt'
+[2.203s] running build
+[2.203s] running build_py
+[2.203s] copying Camera_pkg/oakd_rgb_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg
+[2.204s] copying Camera_pkg/oakd_receiver_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg
+[2.204s] copying Camera_pkg/oakd_imu_rotation_vector.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg
+[2.204s] copying Camera_pkg/oakd_stereo_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg
+[2.205s] copying Camera_pkg/oakd_main_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg
+[2.205s] copying Camera_pkg/oakd_imu_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg
+[2.205s] running install
+[2.207s] running install_lib
+[2.208s] copying /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg/oakd_rgb_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg
+[2.209s] copying /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg/oakd_receiver_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg
+[2.209s] copying /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg/oakd_imu_rotation_vector.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg
+[2.209s] copying /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg/oakd_stereo_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg
+[2.209s] copying /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg/oakd_main_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg
+[2.210s] copying /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build/lib/Camera_pkg/oakd_imu_function.py -> /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg
+[2.281s] byte-compiling /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg/oakd_rgb_function.py to oakd_rgb_function.cpython-38.pyc
+[2.290s] byte-compiling /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg/oakd_receiver_function.py to oakd_receiver_function.cpython-38.pyc
+[2.293s] byte-compiling /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg/oakd_imu_rotation_vector.py to oakd_imu_rotation_vector.cpython-38.pyc
+[2.294s] byte-compiling /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg/oakd_stereo_function.py to oakd_stereo_function.cpython-38.pyc
+[2.296s] byte-compiling /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg/oakd_main_function.py to oakd_main_function.cpython-38.pyc
+[2.298s] byte-compiling /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg/oakd_imu_function.py to oakd_imu_function.cpython-38.pyc
+[2.300s] running install_data
+[2.301s] running install_egg_info
+[2.304s] removing '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.331s] Copying ../../build/Camera_pkg/Camera_pkg.egg-info to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages/Camera_pkg-0.0.0-py3.8.egg-info
+[2.337s] running install_scripts
+[2.375s] Installing camera_node script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/Camera_pkg
+[2.375s] Installing oakd_imu_function script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/Camera_pkg
+[2.375s] Installing oakd_imu_rotation_function script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/Camera_pkg
+[2.375s] Installing oakd_main script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/Camera_pkg
+[2.376s] Installing oakd_receiver script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/Camera_pkg
+[2.376s] Installing oakd_rgb script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/Camera_pkg
+[2.376s] Installing oakd_stereo script to /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/Camera_pkg
+[2.377s] writing list of installed files to '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/install.log'
+[2.409s] Invoked command in '/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/src/Camera_pkg' returned '0': PYTHONPATH=/home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Camera_pkg build --build-base /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/build install --prefix /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/install/Camera_pkg --record /home/mcpslab/Desktop/Underwater-github/Underwater/Optical_Aspect/build/Camera_pkg/install.log --single-version-externally-managed
