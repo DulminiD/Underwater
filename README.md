@@ -14,13 +14,36 @@ OAKD CAMERA ROS Implementation
 
 There are two packages in the optical-aspect workspace. 
 
+1. Clone the repository 
+
+2. Go to Optical-Aspect directory and open a terminal 
+
+3. Build the packages in the src folder 
+
+''' 
+colcon build --symlink-install
+'''
+
+4. Run the following commands in the terminal 
+
+'''
+. install/setup.bash
+. install/local_setup.bash
+'''
+
+5. Run an example node 
+
+'''
+ros2 run Camera_pkg camera_node
+'''
+
+
+There are 2 packages. 
+
 1. LED package 
 
 This package is used to maintain the LED or the transmitter of the system
 
-I. Open a terminal in the "Optical-Aspect" folder.
-II. Build the LED package "colcon build --packages-select LED_pkg". 
-III. Run commands " . install/setup.bash" and ". install/local_setup.bash" to add the workspace to the path 
 
 There are 2 scripts. 
 
@@ -42,9 +65,6 @@ There are 2 scripts.
 
 This package is used to maintain the camera or the receiver of the system 
 
-I. Open a terminal in the "Optical-Aspect" folder.
-II. Build the LED package "colcon build --packages-select Camera_pkg". 
-III. Run commands " . install/setup.bash" and ". install/local_setup.bash" to add the workspace to the path 
 
 There are 6 scripts. 
 
