@@ -20,22 +20,25 @@ There are two packages in the optical-aspect workspace.
 
 3. Build the packages in the src folder 
 
-''' 
+~~~
 colcon build --symlink-install
-'''
+~~~
 
 4. Run the following commands in the terminal 
 
-'''
+~~~
 . install/setup.bash
+~~~
+
+~~~
 . install/local_setup.bash
-'''
+~~~
 
 5. Run an example node 
 
-'''
+~~~
 ros2 run Camera_pkg camera_node
-'''
+~~~
 
 
 There are 2 packages. 
@@ -46,20 +49,23 @@ This package is used to maintain the LED or the transmitter of the system
 
 
 There are 2 scripts. 
-
-'''
-
     i. led_blink_function - Sending ON and OFF sigals to the LED 
         
         Run using command
+
+        ~~~
         ros2 run LED_pkg led_blink
+        ~~~
 
     ii. led_random_packet_function - Sending a random packet of signal to the LED 
 
         Run using command
+        
+        ~~~
         ros2 run LED_pkg led_packet
+        ~~~
 
-'''
+
 
 2. Camera package 
 
@@ -68,7 +74,7 @@ This package is used to maintain the camera or the receiver of the system
 
 There are 6 scripts. 
 
-'''
+~~~
 
     i. oakd_rgb_function - Turns on the RGB camera  
         
@@ -100,7 +106,7 @@ There are 6 scripts.
         Run using command
         ros2 run Camera_pkg oakd_receiver
 
-'''
+~~~
 
 
 
