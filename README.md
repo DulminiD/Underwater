@@ -8,7 +8,7 @@ OAKD CAMERA ROS Implementation
 2. Ubuntu version >=18.0.0
 3. Python3
 4. Depthai 
-    i. Check the link for installation guidelines - https://github.com/luxonis/depthai
+    Check the link for installation guidelines - https://github.com/luxonis/depthai
 
 ## Implementation
 

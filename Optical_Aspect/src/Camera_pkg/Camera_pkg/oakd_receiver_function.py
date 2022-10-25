@@ -21,9 +21,12 @@ from time import ctime
 import csv 
 import time
 
+f = open("Received.csv","w")
+writer = csv.writer(f)
+sensitivity = 15
+lower_blue = np.array([0,0,255-sensitivity])
+upper_blue = np.array([255,sensitivity,255])
 
-lower_blue = np.array([112,125,236,255])
-upper_blue = np.array([255,255,253,255])
 
 pipeline = dai.Pipeline()
 xoutVideo = pipeline.create(dai.node.XLinkOut)
@@ -32,11 +35,12 @@ camRgb = pipeline.create(dai.node.ColorCamera)
 camRgb.setBoardSocket(dai.CameraBoardSocket.RGB)
 camRgb.setResolution(dai.ColorCameraProperties.SensorResolution.THE_1080_P)
 camRgb.setVideoSize(800, 800)
-camRgb.setFps(5)
+camRgb.setFps(50)
 xoutVideo.input.setBlocking(False)
 xoutVideo.input.setQueueSize(1)
 camRgb.video.link(xoutVideo.input)
 count = 0
+status = 'OFF'
 
 
 
@@ -62,13 +66,20 @@ if __name__ == "__main__":
             if len(cnts) > 0:
                 c = max(cnts, key=cv2.contourArea)
                 ((x, y), radius) = cv2.minEnclosingCircle(c)
-                print("Light ON")
+                status = 'ON'
                 cv2.drawContours(image=img, contours=cnts,contourIdx=-1,color=(0,255,0), thickness=2,lineType=cv2.LINE_AA)
             else:
-                print("Light Off")
+                status = 'OFf'
             cv2.imshow('im', img)
-            
+            writer.writerow(status)
             if cv2.waitKey(1) == ord('q'):
                 break
 
     cv2.destroyAllWindows()
+
+            
+        
+
+  
+
+
