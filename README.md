@@ -28,9 +28,6 @@ colcon build --symlink-install
 
 ~~~
 . install/setup.bash
-~~~
-
-~~~
 . install/local_setup.bash
 ~~~
 
@@ -49,21 +46,22 @@ This package is used to maintain the LED or the transmitter of the system
 
 
 There are 2 scripts. 
-    i. led_blink_function - Sending ON and OFF sigals to the LED 
+
+i. led_blink_function - Sending ON and OFF sigals to the LED 
         
-        Run using command
+Run using command
 
-        ~~~
-        ros2 run LED_pkg led_blink
-        ~~~
+~~~
+ros2 run LED_pkg led_blink
+~~~
 
-    ii. led_random_packet_function - Sending a random packet of signal to the LED 
+ii. led_random_packet_function - Sending a random packet of signal to the LED 
 
-        Run using command
+Run using command
         
-        ~~~
-        ros2 run LED_pkg led_packet
-        ~~~
+~~~
+ros2 run LED_pkg led_packet
+~~~
 
 
 
@@ -74,38 +72,53 @@ This package is used to maintain the camera or the receiver of the system
 
 There are 6 scripts. 
 
+
+i. oakd_rgb_function - Turns on the RGB camera  
+        
+Run using command
+        
+~~~
+ros2 run Camera_pkg oakd_rgb
 ~~~
 
-    i. oakd_rgb_function - Turns on the RGB camera  
+ii. oakd_imu_function - Collect information from IMU details from accelerator and gyrometer of the oakd camera 
+
+Run using command
+
+~~~
+ros2 run Camera_pkg oakd_imu_rotation
+~~~
+
+iii. oakd_imu_rotation_function - Collect information from IMU rotation functions of the oakd camera 
+
+Run using command
+
+~~~
+ros2 run Camera_pkg oakd_imu_rotation_function
+~~~
+
+iv. oakd_stereo_function - Turns on the stereo cameras
         
-        Run using command
-        ros2 run Camera_pkg oakd_rgb
+Run using command
 
-    ii. oakd_imu_function - Collect information from IMU details from accelerator and gyrometer of the oakd camera 
+~~~
+ros2 run Camera_pkg oakd_stereo
+~~~
 
-        Run using command
-        ros2 run Camera_pkg oakd_imu_rotation
-
-    iii. oakd_imu_rotation_function - Collect information from IMU rotation functions of the oakd camera 
-
-        Run using command
-        ros2 run Camera_pkg oakd_imu_rotation_function
-
-    iv. oakd_stereo_function - Turns on the stereo cameras
+v. oakd_main_function - Turns on the RGB camera saving a video and collects IMU details 
         
-        Run using command
-        ros2 run Camera_pkg oakd_stereo
+Run using command
 
-    v. oakd_main_function - Turns on the RGB camera saving a video and collects IMU details 
+~~~
+ros2 run Camera_pkg oakd_main
+~~~
+
+vi. oakd_receiver_function - Idenities whether the light in ON or OFF
         
-        Run using command
-        ros2 run Camera_pkg oakd_main
+Run using command
 
-    vi. oakd_receiver_function - Idenities whether the light in ON or OFF
-        
-        Run using command
-        ros2 run Camera_pkg oakd_receiver
-
+~~~
+ros2 run Camera_pkg oakd_receiver
 ~~~
 
 
