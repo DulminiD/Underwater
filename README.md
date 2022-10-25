@@ -34,7 +34,7 @@ colcon build --symlink-install
 5. Run an example node 
 
 ~~~
-ros2 run Camera_pkg camera_node
+ros2 run Camera_pkg oakd_rgb
 ~~~
 
 
@@ -62,6 +62,13 @@ Run using command
 ~~~
 ros2 run LED_pkg led_packet
 ~~~
+
+
+
+
+https://user-images.githubusercontent.com/53858570/197893876-b537b86f-a442-45cc-8bcb-cb8beb26c68b.mp4
+
+
 
 
 
