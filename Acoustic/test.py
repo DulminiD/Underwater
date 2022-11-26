@@ -1,5 +1,4 @@
 
-
 # import required module
 from playsound import playsound
 import time
@@ -19,7 +18,8 @@ print(randomlist)
 print(len(randomlist))
 
 with open(output_name + ".txt", mode='w') as file:
-    file.write(randomlist)
+    for i in randomlist:
+        file.write(str(i))
 
 for i in randomlist:
     if i == 1:
