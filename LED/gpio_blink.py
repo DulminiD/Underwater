@@ -14,7 +14,7 @@ def usage():
     print('-p or --pin\t: The board pin to output the transmission to')
 
 
-def main(argv):
+def blink(argv):
     global output_pin, frequency
 
     if len(argv) == 1:
@@ -54,4 +54,4 @@ def main(argv):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1:])
+    blink(sys.argv[1:])

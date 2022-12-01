@@ -23,10 +23,7 @@ xoutVideo.input.setQueueSize(1)
 camRgb.video.link(xoutVideo.input)
 count = 0
 
-
-
-if __name__ == "__main__":
-
+def start_receiver():
     with dai.Device(pipeline) as device:
         video = device.getOutputQueue(name="video", maxSize=1, blocking=False)
         print('Usb speed: ', device.getUsbSpeed().name)
@@ -57,6 +54,12 @@ if __name__ == "__main__":
                 break
 
     cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    start_receiver()
+
+    
 
             
         

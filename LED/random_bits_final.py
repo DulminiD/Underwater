@@ -10,6 +10,7 @@ import time
 import logging
 import getopt
 import random
+import sys
 
 output_pin = 11  # Board Pin 12
 frequency = 25  # effectively a 30Hz transmission rate
@@ -178,6 +179,9 @@ def generate_random_bitstream(size):
 
 
 def main(argv):
+	run_stream(argv)
+	
+def run_stream(argv):
 	global output_pin, frequency, state_flag, perma_state, random_flag, random_size, times, output_name
 	if len(argv) == 1:
 		print('Using default values of: Output Pin = Board 12, Frequency = 30 Hz, 500 random bits and 1 cycle')
