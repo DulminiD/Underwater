@@ -9,7 +9,7 @@ import cv2
 
 f1 = open("log.csv","w")
 writer2 = csv.writer(f1)
-result = cv2.VideoWriter('filename'+ ctime() + '.avi', 
+result = cv2.VideoWriter('filename'+ str(ctime()) + '.avi', 
 		                 cv2.VideoWriter_fourcc(*'MJPG'),
 		                 55, (800,800))
 
